@@ -1,0 +1,62 @@
+.loginCards{
+    display: flex;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: auto;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 25px auto;
+    background: url(/assets/popUpBg.svg);
+    background-repeat: no-repeat;
+    /* background-size: 100%; */
+}
+.example-container mat-form-field + mat-form-field {
+    margin-left: 8px;
+  }
+.mat-mdc-form-field-error{
+    color: #640902;
+    font-weight: 500;
+  }
+  .mdc-text-field--invalid:not(.mdc-text-field--disabled) .mdc-floating-label {
+    color: var(--mdc-theme-error, #640902);
+}
+  .mat-mdc-form-field-icon-prefix>.mat-icon, .mat-mdc-form-field-icon-suffix>.mat-icon {
+    padding: 12px;
+    box-sizing: content-box;
+    color: #996b29;
+}
+.mat-icon {
+    -webkit-user-select: none;
+    user-select: none;
+    background-repeat: no-repeat;
+    display: inline-block;
+    fill: currentColor;
+    height: 24px;
+    width: 24px;
+    overflow: hidden;
+    color: #996b29;
+}
+.loginpagelabel{
+  font-size: x-large;
+  color: #fffefc;
+  margin: 15px;
+  font-family: cursive;
+}
+.mat-mdc-raised-button:not(:disabled) {
+  color: #ffffff;
+}
+.mat-mdc-raised-button:not(:disabled) {
+  color: #ffffff;
+  margin-bottom: 0px;
+  width: 100%;
+  background: #764501;
+  font-family: cursive;
+}
+.regLink{
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+}

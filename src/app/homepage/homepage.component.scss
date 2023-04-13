@@ -1,0 +1,42 @@
+.homePageHeader{
+    position: absolute;
+    top: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+   
+}
+
+.userAction{
+    display: inline-flex;
+}
+.userActionIcon{
+    padding: 0 10px 0;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+.icons{
+    font-size: 32px;
+    width: auto;
+    height: -moz-fit-content;
+    height: fit-content;
+}
+.countDiv{
+    width: 20px;
+    font-size: 10px;
+    height: 19px;
+    background: #664617;
+    border-radius: 11px;
+    color: white;
+    display: flex;
+    align-content: flex-end;
+    justify-content: space-around;
+}
+.mat-mdc-tab  .mdc-tab{
+    height: 31px;
+}

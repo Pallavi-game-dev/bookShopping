@@ -1,0 +1,74 @@
+{
+    "userDetails": [
+      {
+        "fName": "sas",
+        "lName": "saas",
+        "Address": "rew",
+        "PhoneNo": 3213213211,
+        "EmailId": "ew@fds.com",
+        "Password": "1234567",
+        "id": 1
+      },
+      {
+        "fName": "Pal",
+        "lName": "Patil",
+        "Address": "Airoli",
+        "PhoneNo": 987654321,
+        "EmailId": "pal@gmail.com",
+        "Password": "Pal@123",
+        "id": 2
+      }
+    ],
+    "books": [
+      {
+        "id": "2",
+        "title": "The Girl in the Glass Case (Paperback)- Devashish Sardana",
+        "img": "/assets/Allbooks/The_girl_In_The_Glass.png",
+        "author": "Devashish Sardana",
+        "seller": "Book Hound",
+        "price": "250",
+        "discount": "40",
+        "category": [
+          "Horror",
+          "Newly Added"
+        ],
+        "cart": false,
+        "wishlist": true,
+        "infomation": {
+          "Publisher": "Penguin Random House India (10 January 2022); Penguin Random House India",
+          "Language": "English",
+          "Paperback": "344 pages",
+          "ISBN-10": "0143454374",
+          "ISBN-13": "978-0143454373",
+          "Item Weight": "227 g",
+          "Dimensions": "12.9 x 2.29 x 19.81 cm"
+        },
+        "description": "Simone Singh is a feisty IPS officer who would rather spend her days locking up criminals than apologizing for her lack of social skills. Freshly back from an unjust suspension, Simone is forced to team up with DSP Zoya Bharucha, an empathetic officer who's as loved in the police force as Simone is shunned."
+      },
+      {
+        "id": "2",
+        "title": "The Girl in the Glass Case (Paperback)- Devashish Sardana",
+        "img": "/assets/Allbooks/The_girl_In_The_Glass.png",
+        "author": "Devashish Sardana",
+        "seller": "Book Hound",
+        "price": "250",
+        "discount": "40",
+        "category": [
+          "Horror",
+          "Newly Added"
+        ],
+        "cart": false,
+        "wishlist": true,
+        "infomation": {
+          "Publisher": "Penguin Random House India (10 January 2022); Penguin Random House India",
+          "Language": "English",
+          "Paperback": "344 pages",
+          "ISBN-10": "0143454374",
+          "ISBN-13": "978-0143454373",
+          "Item Weight": "227 g",
+          "Dimensions": "12.9 x 2.29 x 19.81 cm"
+        },
+        "description": "Simone Singh is a feisty IPS officer who would rather spend her days locking up criminals than apologizing for her lack of social skills. Freshly back from an unjust suspension, Simone is forced to team up with DSP Zoya Bharucha, an empathetic officer who's as loved in the police force as Simone is shunned."
+      }
+    ]
+  }

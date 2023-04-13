@@ -1,0 +1,56 @@
+<mat-card class="registerCards">
+    <label class="registerpagelabel">Sign Up</label>
+    <form [formGroup]="userForm" (ngSubmit)="onSubmit()">
+        <mat-card-content>
+            <div class="example-container">
+                <mat-form-field appearance="fill">
+                    <mat-label>Enter First Name</mat-label>
+                    <input matInput placeholder="Abc" formControlName="FName" required>
+                    <mat-error *ngIf="(loadRegistration['FName'].touched || submitted) && loadRegistration['FName'].errors">{{getErrorMessage('FName')}}</mat-error>
+                </mat-form-field>
+                <mat-form-field appearance="fill">
+                    <mat-label>Enter Last Name</mat-label>
+                    <input matInput placeholder="Xyz" formControlName="LName" required>
+                    <mat-error *ngIf="(loadRegistration['LName'].touched || submitted) && loadRegistration['LName'].errors">{{getErrorMessage('LName')}}</mat-error>
+                </mat-form-field>
+
+            </div>
+            <div class="example-container">
+                <mat-form-field appearance="fill">
+                    <mat-label>Enter Phone Number</mat-label>
+                    <input matInput type="number" placeholder="9876543210" formControlName="PhoneNo" required>
+                    <mat-error *ngIf="(loadRegistration['PhoneNo'].touched || submitted) && loadRegistration['PhoneNo'].errors">{{getErrorMessage('PhoneNo')}}</mat-error>
+                </mat-form-field>
+             
+                <mat-form-field appearance="fill">
+                    <mat-label>Enter Address</mat-label>
+                    <input matInput type="text" placeholder="Room No,Building name,Area Name,city,state,county,pin code" formControlName="Address" required>
+                    <mat-error *ngIf="(loadRegistration['Address'].touched || submitted) && loadRegistration['Address'].errors">{{getErrorMessage('Address')}}</mat-error>
+                </mat-form-field>
+             
+
+            </div>
+
+            <div class="example-container">
+                <mat-form-field appearance="fill">
+                    <mat-label>Enter Email</mat-label>
+                    <input matInput  placeholder="pat@example.com" formControlName="EmailId"  required>
+                    <mat-error *ngIf="(loadRegistration['EmailId'].touched || submitted) && loadRegistration['EmailId'].errors">{{getErrorMessage('EmailId')}}</mat-error>
+                </mat-form-field>
+                <mat-form-field appearance="fill">
+                    <mat-label>Set Your Password</mat-label>
+                    <input matInput type="password" formControlName="Password"  required>
+                    <mat-error *ngIf="(loadRegistration['Password'].touched || submitted) && loadRegistration['Password'].errors">{{getErrorMessage('Password')}}</mat-error>
+                </mat-form-field>
+            </div>
+           
+            <button mat-raised-button>
+                <!-- <mat-icon>home</mat-icon> -->
+                Sign Up
+            </button>
+        </mat-card-content>
+    </form>
+    <div class="loginLink">
+        <a [routerLink]="'/login'" class="loginLink"> Sign In? </a>
+        </div>
+</mat-card>

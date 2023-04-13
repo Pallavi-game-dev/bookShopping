@@ -1,0 +1,25 @@
+td{
+padding: 10px;
+}
+
+.incrementBtn{
+    background-color: #795548;
+    color: white;
+    border: none;
+    box-shadow: 1px 1px 4px grey;
+    border-radius: 2px;
+    cursor: pointer;
+    &:hover{ 
+        box-shadow: 2px 2px 4px grey;
+    }
+}
+.numberInput{
+    // margin: 10PX;
+    width: 20px;
+}
+.mdc-card{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    justify-content: flex-end;
+}

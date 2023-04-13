@@ -1,0 +1,42 @@
+table,tr,th,td{
+    font-family: cursive;
+}
+.buymaincontainer{
+    padding: 20px;
+}
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, #customers th {
+    /* border: 1px solid #ddd; */
+    padding: 18px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+
+
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    /* background-color: #04AA6D;
+    color: white; */
+  }
+  .placeorderBtn{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .buyBtn{
+    color: #ffffff;
+    margin-bottom: 0px;
+    margin: 10px;
+    background: #4caf50;
+    font-family: cursive;
+  }

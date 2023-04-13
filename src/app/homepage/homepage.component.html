@@ -1,0 +1,5 @@
+
+<div class="cardsArrangeinpage">
+    <app-productcard *ngFor="let books of bookdata | search: searchInput:searchkey" [bookdata]="books "
+        (onCardClick)="onCardClick(books)"></app-productcard>
+</div>

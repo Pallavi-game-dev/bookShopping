@@ -1,0 +1,57 @@
+.mdc-card__media{
+    position: relative;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 125px;
+    /* height: 193px; */
+    margin: auto;
+}
+.mat-mdc-card {
+    width: 225px;
+    padding: 10px;
+    margin: 10px;
+    height: 300px;
+    position: relative;
+    border-radius: var(--mdc-elevated-card-container-shape, var(--mdc-shape-medium, 4px));
+    /* background-color: transparent; */
+     
+    border-width: 0;
+    border-style: solid;
+    /* border-color: var(--mdc-elevated-card-container-color, transparent); */
+    /* background: url(/assets/popUpBg.svg); */
+    background-repeat: no-repeat;
+    box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 66%), 0px 1px 1px 0px rgb(0 0 0 / 87%), 0px 1px 3px 0px rgb(0 0 0 / 74%);
+}
+.card-title{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size:large
+}
+.cardDiscription{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+    min-height: 22px;
+    padding: 1px;
+}
+.discountTag{
+    position: absolute;
+    /* width: 67px; */
+    /* height: 22px; */
+    background-color: #ab7931;
+    /* transform: rotate(-40deg); */
+    top: 0px;
+    border-radius: 3px;
+    left: 0px;
+    z-index: 2;
+    padding: 5px;
+    color: white;
+    font-style: bold;
+    font-weight: bold;
+    /* border: 1px solid; */
+    font-size: 18px;
+}

@@ -1,0 +1,104 @@
+<div class="row productpage" *ngIf="bookDetails">
+    <div class="col-xs-4 sections">
+        <div style="padding: 15px;">
+            <img mat-card-image [src]="bookDetails.img" style="width: 255px;">
+        </div>
+
+    </div>
+    <div class="col-xs-4 sections" style="min-width: 417px; width: 70%;">
+        <div>
+            <h2 class="color-text">{{bookDetails.title}}
+            </h2>
+            <ul class="ul-list">
+                <li class="margin_bottom">
+                    <label> Author -
+                        <span class="color-text">{{bookDetails.author}}</span>
+                    </label>
+                </li>
+
+                <li class="margin_bottom">
+                    <label> Seller -
+                        <span class="color-text">{{bookDetails.seller}}</span>
+                    </label>
+                </li>
+
+                <li class="margin_bottom">
+                    <p class="price_div">
+                        <del style="font-size: 14px;" class="red-color-text">{{bookDetails.price | currency:'INR'}} </del>
+                        {{discountPrice| currency:'INR'}}<span style="font-size: 14px;" class="red-color-text"> {{bookDetails.discount}}% Off
+                        </span>
+                    </p>
+                </li>
+
+                <li class="margin_bottom"><label> Category:
+                        <span *ngFor="let category of bookDetails.category">{{category}} </span>
+                    </label></li>
+            </ul>
+
+
+            <div>
+                <div>
+                    <button class="incrementBtn" (click)="decreaseQtyPro(bookDetails);">-</button>
+                    <input #quantity matInput id="numberInput" class="numberInput" step="1" min="1" value={{bookDetails.quantity}}>
+                    <button (click)="increaseQtyPro(bookDetails);" class="incrementBtn">+</button>
+                </div>
+            </div>
+
+            <br>
+            <div>
+                <div>
+                    <button mat-raised-button style="background: #e42222; color: white;"  (click)="onBuyButtonClick($event,'100ms', '100ms')">
+                        <mat-icon>shopping_cart</mat-icon>
+                        BUY NOW
+                    </button>
+                    <button mat-raised-button style="background: #795548;color: white; margin-left: 8px;"
+                        (click)="addtoChart()">
+                        <mat-icon [ngClass]="{'active':userMetaData && userMetaData.cart.includes(this.bookDetails._id)}">add_shopping_cart</mat-icon>
+                        ADD TO CART
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div mat-dialog-actions>
+            <button mat-raised-button style="background: #e2be8e; color: black;" (click)="addtoWishList()">
+                <mat-icon *ngIf="userMetaData && userMetaData.wishlist.includes(this.bookDetails._id)" style="color: #e42222;">favorite</mat-icon>
+                <mat-icon *ngIf="userMetaData && !userMetaData.wishlist.includes(this.bookDetails._id)">favorite_border</mat-icon>
+                ADD TO WISHLIST
+
+            </button>
+            <button mat-raised-button style="background: #795548;color: white;margin-left: 8px;" (click)="onNoClick()">
+                <mat-icon>exit_to_app</mat-icon>
+                Back
+            </button>
+
+            <!-- <button mat-raised-button (click)="onNoClick()">No Thanks</button> -->
+            <!-- <button mat-button [mat-dialog-close]="" cdkFocusInitial>Ok</button> -->
+        </div>
+        <mat-accordion>
+            <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false" class="colrtransparent">
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        DESCRIPTION
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+                <p> {{bookDetails.description}}</p>
+            </mat-expansion-panel>
+        </mat-accordion>
+        <mat-accordion>
+            <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false" class="colrtransparent">
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        ADDITIONAL INFORAMATION
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+                <ul>
+                    <li *ngFor="let item of bookInfo | keyvalue"> {{item.key}} :{{item.value}}</li>
+                </ul>
+
+            </mat-expansion-panel>
+        </mat-accordion>
+       
+    </div>
+
+</div>

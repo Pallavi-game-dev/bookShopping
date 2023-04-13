@@ -1,0 +1,47 @@
+<div class="buymaincontainer">
+    <table id="customers">
+        <tbody>
+            <tr>
+                <th>Product</th>
+                <td> </td>
+            </tr>
+            <tr>
+                <td>{{product.title}}</td>
+                <td>{{discountAmount | currency:'INR'}}</td>
+            </tr>
+            <tr>
+                <th>Quantity</th>
+                <td>{{product.quantity}}</td>
+            </tr>
+            <tr>
+                <th>SubTotal</th>
+                <td>{{SubTotalPrice | currency:'INR'}}</td>
+            </tr>
+            <tr>
+                <th>Shipping</th>
+                <td>{{"0.00" | currency:'INR'}}</td>
+            </tr>
+            <tr>
+                <th>Shipping Time</th>
+                <td>3-6 Days</td>
+            </tr>
+            <tr>
+                <th>Total Amount</th>
+                <th style="font-size: large;">{{this.SubTotalPrice | currency:'INR'}}</th>
+            </tr>
+        </tbody>
+    </table>
+    <div style="padding: 20px;">
+        Your personal data will be used to process your order,
+        support your experice throughout this website and for
+        other purpose described in pour privacy policy.
+    </div>
+    <div class="placeorderBtn">
+        <button mat-raised-button class="buyBtn" (click)="buyProduct()">
+            Place Order
+        </button>
+        <button mat-raised-button class="buyBtn" (click)="cancelProduct()" style="background:#f2f2f2;color:#000000 ;">
+            Cancel
+        </button>
+    </div>
+</div>

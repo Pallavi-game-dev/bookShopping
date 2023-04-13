@@ -1,0 +1,109 @@
+.hearderContainer{
+    background: url(/assets/popUpBg.svg);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.logoHeader{
+    width: -webkit-fill-available;
+    box-shadow: brown;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 6px 8px;
+    justify-content: space-between;
+   
+}
+.logocontainer{
+    // width: 58px;
+    background: url(/assets/R.png);
+    text-align: center;
+    font-size: x-small;
+    height: 30px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    align-content: flex-end;
+    color: #ffffff;
+    font-family: cursive;
+}
+.headerTitle{
+    font-size: 5vh;
+    // width: 86%;
+    display: flex;
+    justify-content: center;
+    align-content: baseline;
+    color: #ffffff;
+    font-family: cursive;
+   
+}
+.userAction{
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.userActionIcon{
+    padding: 0 10px 0;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+.icons{
+    font-size: 28px;
+    width: auto;
+    height: -moz-fit-content;
+    height: fit-content;
+}
+.countDiv{
+    width: 20px;
+    font-size: 10px;
+    height: 19px;
+    background: #664617;
+    border-radius: 11px;
+    color: white;
+    display: flex;
+    align-content: flex-end;
+    justify-content: space-around;
+    position: relative;
+    top: -10px;
+}
+.mat-mdc-tab  .mdc-tab{
+    height: 31px;
+}
+.categoryContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin: 7px 0 2px 0px;
+  
+}
+.searchContainer{
+   
+    background: white;
+    border: none;
+    border-radius: 20px;
+    padding-left: 14px;
+}
+.userName{
+    background: transparent;
+    border: none;
+    border-radius: 20px;
+    padding-left: 14px;
+}
+
+.inputSearch{
+    background: transparent;
+    border: none;
+   
+}
+.inputSearch:focus{
+    outline: none;
+}

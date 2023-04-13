@@ -1,0 +1,57 @@
+<div class="hearderContainer">
+
+<div class="logoHeader">
+    <div class="logocontainer">OuRbOoKs</div>
+    <div class="headerTitle">OuRbOoKs</div>
+    
+    <div class="userAction">
+        <div *ngIf="isLogin"  class="searchContainer">
+        <input type="text" matInput placeholder="Search" name="search" [(ngModel)]="searchInput" class="inputSearch" (input)="onSelectSearch(searchInput)">
+            <button matSuffix mat-button><mat-icon>search</mat-icon></button>
+        </div>
+        <div *ngIf="isLogin" class="userName">{{userName}}</div>
+        <div  *ngIf="isLogin" class="userActionIcon">
+            <mat-icon class="icons" style="font-size: 38px;"  [matMenuTriggerFor]="menu1">account_circle</mat-icon>
+            <mat-menu #menu1="matMenu">
+                <button mat-menu-item style="min-height:0;" (click)="onLogOut()">logout</button>
+                
+              </mat-menu>
+           
+        </div>
+        
+    </div>
+   
+</div>
+<div  *ngIf="isLogin" class="categoryContainer">
+    <div class="userAction">
+        <div class="userActionIcon"  (click)="onHomeClick()">
+            <mat-icon class="icons">home</mat-icon>
+        </div>
+        <div>
+            <button mat-button [matMenuTriggerFor]="menu">Category {{category}}</button>
+            <mat-menu #menu="matMenu">
+              <button *ngFor="let category of categorylist" mat-menu-item style="min-height:0;" (click)="onSelectCategory(category)">{{category}}</button>
+              
+            </mat-menu>
+        </div>
+        <!-- <div>Filter</div> -->
+    </div>
+    <div class="userAction">
+        <!-- <div class="userActionIcon"   (click)="onCartClick()"  matBadge="8" matBadgePosition="after" matBadgeColor="warn"> -->
+        <div class="userActionIcon"   (click)="onCartClick()" >
+            <mat-icon class="icons">add_shopping_cart</mat-icon>
+            <div class="countDiv">{{cartCount}}</div>
+        </div>
+       
+       <div class="userActionIcon"   (click)="onWishClick()">
+        <mat-icon class="icons">favorite_border</mat-icon>
+        <div class="countDiv">{{wishListCount}}</div>
+    </div>
+    
+    </div>
+    
+</div>
+
+</div>
+
+ 

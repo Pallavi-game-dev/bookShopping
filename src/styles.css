@@ -1,0 +1,57 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'ngx-toastr/toastr';
+html,
+body {
+    /* height: 100%; */
+    /* background:linear-gradient(45deg, #dab278, transparent); */
+    /* background: linear-gradient(45deg, #dab2781f, transparent); */
+}
+
+body {
+    margin: 0;
+    font-family: cursive;
+    /* background-color: red; */
+    background: linear-gradient(88deg, #dab27894, transparent);
+}
+.mat-mdc-tab:not(.mat-mdc-tab-disabled).mdc-tab--active .mdc-tab__text-label {
+    color: black;
+}
+.mat-mdc-tab:not(.mat-mdc-tab-disabled) .mdc-tab-indicator__content--underline{
+    border-color: #795548;
+}
+.toast-top-right {
+    top: 12px;
+    left: 31%;
+    margin: 0 auto;
+}
+.color-text{
+    color: #795548;
+}
+.red-color-text{
+    color: #e42222;
+}
+.cardsArrangeinpage{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* background: linear-gradient(180deg, #b38338, transparent); */
+}
+.mat-mdc-menu-content {
+    margin: 0;
+    padding: 8px 0;
+    list-style-type: none;
+    margin: 0;
+    font-family: cursive;
+    /* background-color: red; */
+    background: linear-gradient(88deg, #dab27894, transparent);
+
+}
+.mat-mdc-menu-content, .mat-mdc-menu-content .mat-mdc-menu-item .mdc-list-item__primary-text{
+    font-size: 14px;
+    min-height: 0px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #8080804a;
+}

@@ -1,0 +1,11 @@
+<mat-card (click)="onClick(bookdata)" style="cursor: pointer;">
+    <div class="discountTag">{{bookdata.discount}}% Off</div>
+        <!-- <mat-card-content>	Primary card content. Intended for blocks of text</mat-card-content> -->
+        <img mat-card-image [src]="this.bookdata.img">	
+        <!-- <mat-card-actions class="cardDiscription">	{{this.bookdata}}</mat-card-actions> -->
+        <mat-card-title [title]="this.bookdata.title" class="card-title">{{this.bookdata.title}}</mat-card-title>
+        <mat-card-subtitle>{{this.bookdata.author}}</mat-card-subtitle>
+        <mat-card-footer style="font-size: 18px;
+        font-weight: bold;">  <del style="font-size: 14px;" class="red-color-text">{{bookdata.price| currency:'INR'}}</del>
+              {{discountAmount| currency:'INR'}}</mat-card-footer>
+</mat-card>

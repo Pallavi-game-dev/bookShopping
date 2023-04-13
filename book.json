@@ -1,0 +1,476 @@
+{
+  "userDetails": [
+    {
+      "FName": "Pal",
+      "LName": "Patil",
+      "Address": "Airoli",
+      "PhoneNo": 987654321,
+      "EmailId": "pal@gmail.com",
+      "Password": "Pal@123",
+      "id": "1"
+    },
+    {
+      "fName": "manish",
+      "lName": "sign",
+      "Address": "kalyan",
+      "PhoneNo": 5678954323,
+      "EmailId": "manish@gmail.com",
+      "Password": "Manish@123",
+      "id": "2"
+    }
+  ],
+  "userMetaData":[
+    {
+      "userID":"1",
+      "cart":[""],
+      "wishlist":[],
+      "buyproducts":[]
+
+    },
+    {
+      "userID":"1",
+      "cart":[],
+      "wishlist":[],
+      "buyproducts":[]
+
+    }
+  ],
+  "books": [
+    {
+      "id": "1",
+      "title": "The Girl in the Glass Case (Paperback)- Devashish Sardana",
+      "img": "/assets/Allbooks/The_girl_In_The_Glass.png",
+      "author": "Devashish Sardana",
+      "seller": "Book Hound",
+      "price": "250",
+      "discount": "40",
+      "category": [
+        "Horror",
+        "Newly Added"
+      ],
+      "cart": false,
+      "wishlist": true,
+      "infomation": {
+        "Publisher": "Penguin Random House India (10 January 2022); Penguin Random House India",
+        "Language": "English",
+        "Paperback": "344 pages",
+        "ISBN-10": "0143454374",
+        "ISBN-13": "978-0143454373",
+        "Item Weight": "227 g",
+        "Dimensions": "12.9 x 2.29 x 19.81 cm"
+      },
+      "description": "Simone Singh is a feisty IPS officer who would rather spend her days locking up criminals than apologizing for her lack of social skills. Freshly back from an unjust suspension, Simone is forced to team up with DSP Zoya Bharucha, an empathetic officer who's as loved in the police force as Simone is shunned.",
+      "discountAmount": 150,
+      "quantity": 1
+    },
+    {
+      "id": "2",
+      "title": "The Canterville Ghost - by Oscar Wilde",
+      "img": "/assets/Allbooks/The_Canterville_Ghost.png",
+      "author": "NA",
+      "seller": "Book Hound",
+      "price": "75",
+      "discount": "8",
+      "category": [
+        "Horror",
+        "Action & Adventure",
+        "Fiction"
+      ],
+      "cart": true,
+      "wishlist": false,
+      "infomation": {
+        "Publisher": "Penguin Random House India (10 January 2022); Penguin Random House India",
+        "Language": "English",
+        "Paperback": "344 pages",
+        "ISBN-10": "0143454374",
+        "ISBN-13": "978-0380703077",
+        "Item Weight": "130 g",
+        "Dimensions": "11.18 x 2.29 x 18.03 cm"
+      },
+      "description": "The story is about an American family who moved to a castle haunted by the ghost of a dead English nobleman, who killed his wife and was then walled in and starved to death by his wife's brothers. It has been adapted for the stage and screen several times.",
+      "discountAmount": 150,
+      "quantity": 1
+    },
+    {
+      "id": "3",
+      "title": "From Blood and Ash (Paperback) -Jennifer L Armentrout",
+      "img": "/assets/Allbooks/From_Blood_and_Ash.png",
+      "author": "Jennifer L Armentrout",
+      "seller": "Book Hound",
+      "price": "1600",
+      "discount": "27",
+      "category": [
+        "Romance",
+        "Horro",
+        "Newly Added"
+      ],
+      "cart": true,
+      "wishlist": true,
+      "infomation": {
+        "Publisher": "Blue Box Press (13 January 2022) ",
+        "Language": "English",
+        "Paperback": "494 pages",
+        "ISBN-10": "1952457769",
+        "ISBN-13": "978-1952457760",
+        "Item Weight": "717 g",
+        "Dimensions": "15.24 x 3.15 x 22.86 cm"
+      },
+      "description": "From Blood and Ash is a sexy, addictive, and unexpected fantasy perfect for fans of Sarah J. Maas and Laura Thalassa. A Maiden... Chosen from birth to usher in a new era, Poppy's life has never been her own",
+      "discountAmount": 0,
+      "quantity": 1
+    },
+    {
+      "id": "4",
+      "title": "Dracula – by Bram Stoker",
+      "img": "/assets/Allbooks/Draula.png",
+      "author": "Bram Stoker",
+      "seller": "Book Hound",
+      "price": "199",
+      "discount": "20",
+      "category": [
+        "Horror"
+      ],
+      "cart": false,
+      "wishlist": false,
+      "infomation": {
+        "Publisher": "Publishing; First edition (1 January 2013)",
+        "Language": "English",
+        "Paperback": "168 pages",
+        "ISBN-10": "9788172344771",
+        "ISBN-13": "978-8172344771",
+        "Item Weight": "310 g",
+        "Dimensions": "20 x 14 x 4 cm"
+      },
+      "description": "Dracula is a novel by Bram Stoker, published in 1897. An epistolary novel, the narrative is related through letters, diary entries, and newspaper articles. It has no single protagonist, but opens with solicitor Jonathan Harker taking a business trip to stay at the castle of a Transylvanian nobleman, Count Dracula.",
+      "discountAmount": 0,
+      "quantity": 1
+    },
+    {
+      "id": "5",
+      "title": "The Discovery of India by Jawaharlal Nehru (Paperback)",
+      "img": "/assets/Allbooks/The Discovery of India by Jawaharlal Nehru.png",
+      "author": "Bram Stoker",
+      "seller": "Book Hound",
+      "price": "699",
+      "discount": "50",
+      "category": [
+        "Indian Writing",
+        "Indian History",
+        "Non-Fiction"
+      ],
+      "cart": false,
+      "wishlist": false,
+      "infomation": {
+        "Publisher": "Penguin India; New edition (1 February 2008)",
+        "Language": "English",
+        "Paperback": "165 pages",
+        "ISBN-10": "9788172344771",
+        "ISBN-13": "978-8172344771",
+        "Item Weight": "710 g",
+        "Dimensions": "23.6 x 4.8 x 16.1 cm"
+      },
+      "description": "The book provides a broad view of Indian history, philosophy and culture, as viewed from the eyes of an Indian fighting for the independence of his country. He wrote the book during his imprisonment. In The Discovery of India, Nehru argued that India was a historic nation with a right to sovereignty.",
+      "discountAmount": 0,
+      "quantity": 1
+    },
+    {
+      "id": "6",
+      "title": "My Experiments with Truth (Paperback) - Mahatma Gandhi",
+      "img": "/assets/Allbooks/Mahatma Gandhi.png",
+      "author": "ourbooks",
+      "seller": "Book Hound",
+      "price": "150",
+      "discount": "17",
+      "category": [
+        "Bestseller Books",
+        "Indian Writing",
+        "Indian History",
+        "Self-Help"
+      ],
+      "cart": false,
+      "wishlist": false,
+      "infomation": {
+        "Publisher": "Paperback",
+        "Language": "English",
+        "Paperback": "165 pages",
+        "ISBN-10": "9788172344771",
+        "ISBN-13": "978-8172344771",
+        "Item Weight": "710 g",
+        "Dimensions": "23.6 x 4.8 x 16.1 cm"
+      },
+      "description": "Experiments of Truth or Autobiography') is the autobiography of Mahatma Gandhi, covering his life from early childhood through to 1921. It was written in weekly installments and published in his journal Navjivan from 1925 to 1929. Its English translation also appeared in installments in his other journal Young India.",
+      "discountAmount": 0,
+      "quantity": 1
+    },
+    {
+      "id": "7",
+      "title": "The India Way (Paperback) - S. Jaishankar",
+      "img": "/assets/Allbooks/The India Way.png",
+      "author": "S. Jaishankar",
+      "seller": "Book Hound",
+      "price": "499",
+      "discount": "56",
+      "category": [
+        "Bestseller Books",
+        "Indian History"
+      ],
+      "cart": false,
+      "wishlist": false,
+      "infomation": {
+        "Publisher": "HarperCollins India (18 May 2022)",
+        "Language": "English",
+        "Paperback": "248 pages",
+        "ISBN-10": "9788172344771",
+        "ISBN-13": "978-8172344771",
+        "Item Weight": "260 g",
+        "Dimensions": "23.6 x 4.8 x 16.1 cm"
+      },
+      "description": "he global order is always evolving, and in that sense, change could well be seen as a constant factor. But that ongoing evolution has now been given a sharper edge by the impact of the coronavirus pandemic, developments in Afghanistan, the Ukraine conflict and greater friction among key powers. 'One Trend and Four Shocks' are thus creating a new landscape. The 'Four Shocks' have, each in their own way, led to heightened global anxiety and insecurity.",
+      "discountAmount": 0,
+      "quantity": 1
+    },
+    {
+      "id": "8",
+      "title": "Dharma - Decoding the Epics for a Meaningful Life (Paperback) - Amish",
+      "img": "/assets/Allbooks/dharma.png",
+      "author": "Amish",
+      "seller": "Book Hound",
+      "price": "399",
+      "discount": "55",
+      "category": [
+        "Bestseller Books",
+        "Indian Writing",
+        "Indian History"
+      ],
+      "cart": false,
+      "wishlist": false,
+      "infomation": {
+        "Publisher": "Dharma (5 May 2022)",
+        "Language": "English",
+        "Paperback": "248 pages",
+        "ISBN-10": "9788172344771",
+        "ISBN-13": "978-8172344771",
+        "Item Weight": "260 g",
+        "Dimensions": "23.6 x 4.8 x 16.1 cm"
+      },
+      "description": "he global order is always evolving, and in that sense, change could well be seen as a constant factor. But that ongoing evolution has now been given a sharper edge by the impact of the coronavirus pandemic, developments in Afghanistan, the Ukraine conflict and greater friction among key powers. 'One Trend and Four Shocks' are thus creating a new landscape. The 'Four Shocks' have, each in their own way, led to heightened global anxiety and insecurity.",
+      "discountAmount": 0,
+      "quantity": 1
+    },
+    {
+      "id": "9",
+      "title": "How the Sea Became Salty - Sudha Murty",
+      "img": "/assets/Allbooks/How the Sea Became.png",
+      "author": "Sudha Murty",
+      "seller": "Book Hound",
+      "price": "195",
+      "discount": "1",
+      "category": [
+        "Children",
+        "Indian Writing"
+      ],
+      "cart": false,
+      "wishlist": false,
+      "infomation": {
+        "Publisher": "Puffin (3 July 2019)",
+        "Language": "English",
+        "Paperback": "40 pages",
+        "ISBN-10": "0143451405",
+        "ISBN-13": "978-0143447047",
+        "Item Weight": "260 g",
+        "Dimensions": "12.7 x 0.25 x 20.32 cm"
+      },
+      "description": "New A long, long time ago, seawater was sweet and drinkable. How it became salty is a remarkable story. India's favourite storyteller brings alive this timeless tale with her inimitable wit and simplicity. Dotted with charming illustrations, this gorgeous chapter book is the ideal introduction for beginners to the world of Sudha Murty.",
+      "discountAmount": 0,
+      "quantity": 1
+    },
+    {
+      "id": "10",
+      "title": "The Magic Drum and Other Favourite Stories - Sudha Murty",
+      "img": "/assets/Allbooks/The Magic Drum and Other Favourite Stories.png",
+      "author": "Sudha Murty",
+      "seller": "Book Hound",
+      "price": "139",
+      "discount": "44",
+      "category": [
+        "Children",
+        "Indian Writing",
+        "Fiction"
+      ],
+      "cart": true,
+      "wishlist": false,
+      "infomation": {
+        "Publisher": "Penguin Books Limited; Latest edition (1 January 2015)",
+        "Language": "English",
+        "Paperback": "40 pages",
+        "ISBN-10": "0143333631",
+        "ISBN-13": "978-0143447047",
+        "Item Weight": "160 g",
+        "Dimensions": "20 x 14 x 4 cm"
+      },
+      "description": "A-section a-spacing-small a-padding-small is the chairperson of the Infosys Foundation in India. She has a master's degree in electrical engineering from the Indian Institute of Science, Bangalore. She started her career as a development engineer and has also taught computer science at Bangalore University colleges. is a prolific writer in Kannada and English. She is a columnist for English and Kannada dailies with twenty-nine books and 200 titles to her credit. Her books have been translated into all major Indian languages. She has been honoured with various awards for her philanthropic and literary efforts. She has also received the Padma Shri from the Government of India as well as seven honorary doctorates from universities in India",
+      "discountAmount": 0,
+      "quantity": 1
+    },
+    {
+      "id": "10",
+      "title": "Peter Pan – by J. M. Barrie ",
+      "img": "/assets/Allbooks/Peter Pan.png",
+      "author": "J. M. Barrie ",
+      "seller": "Book Hound",
+      "price": "175",
+      "discount": "15",
+      "category": [
+        "Children",
+        "Fiction"
+      ],
+      "cart": false,
+      "wishlist": false,
+      "infomation": {
+        "Publisher": "Penguin Books Limited; Latest edition (1 January 2015)",
+        "Language": "English",
+        "Paperback": "40 pages",
+        "ISBN-10": "0143333631",
+        "ISBN-13": "978-0143447047",
+        "Item Weight": "160 g",
+        "Dimensions": "20 x 14 x 4 cm"
+      },
+      "description": "Penguin Books is a British publishing house. It was co-founded in 1935 by Allen Lane with his brothers Richard and John, as a line of the publishers The Bodley Head, only becoming a separate company the following year. Penguin revolutionised publishing in the 1930s through its inexpensive paperbacks, sold through Woolworths and other stores for sixpence, bringing high-quality fiction and non-fiction to the mass market. Its success showed that large audiences existed for serious books. It also affected modern British popular culture significantly through its books concerning politics, the arts, and science.",
+      "discountAmount": 0,
+      "quantity": 1
+    },
+    {
+      "id": "11",
+      "title": " Secrets of the Millionaire Mind (Hindi)(Paperback)- T. Harv Eker",
+      "img": "/assets/Allbooks/Hindi-Secrets of the Millionaire Mind.png",
+      "author": "T. Harv Eker",
+      "seller": "Book Hound",
+      "price": "299",
+      "discount": "50",
+      "category": [
+        "Newly Added",
+        "Hindi Books",
+        "Self-Help"
+      ],
+      "cart": false,
+      "wishlist": false,
+      "infomation": {
+        "Publisher": "Manjul Publishing House Pvt. Ltd.; New edition (1 March 2009); Manjul Publishing House Pvt. Ltd., 2nd Floor, Usha Preet Complex, 42 Malviya Nagar, Bhopal - 462003 - India",
+        "Language": "Hindi",
+        "Paperback": "206 pages",
+        "ISBN-10": "9788183221115",
+        "ISBN-13": "978-8183221115",
+        "Item Weight": "240 g",
+        "Dimensions": "20.3 x 25.4 x 4.7 cm"
+      },
+      "description": "क्या आपको कभी इस बात पर हैरानी हुर्इ है कि कुछ लोग आसानी से अमीर क्यों बन जाते हैं, जबकि बाक़ी लोग ज़िंदगी भर आर्थिक मुश्किलों में फँसे रहते हैं? क्या यह अंतर उनकी शिक्षा, बुद्धि, योग्यताओं, टाइमिंग, काम की आदतों, संपर्कों, क़िस्मत या नौकरी, बिज़नेस अथवा निवेश के चुनाव के कारण होता है? अचंभित कर देने वाला जवाब है : इनमें से किसी कारण नहीं! अपनी ज़बर्दस्त पुस्तक सीक्रेट्स ऑफ़ द मिलियनेअर माइंड में टी. हार्व एकर यह दावा करते हैं कि “पाँच मिनट में मैं बता सकता हूँ कि भविष्य में आपके पास कितनी दौलत होगी!” एकर आपके “धन और सफलता के ब्लूप्रिटं” को पहचानकर यह काम करते हैं। हम सभी के अवचेतन मन में धन का व्यक्तिगत ब्लूप्रिटं होता है और हमारे वित्तीय जीवन पर सबसे ज़्यादा प्रभाव इसी का पड़ता है।",
+      "discountAmount": 0,
+      "quantity": 1
+    },
+    {
+      "id": "12",
+      "title": "Godan – Hindi Edition by Premchand ",
+      "img": "/assets/Allbooks/godan.png",
+      "author": "Premchand ",
+      "seller": "Book Hound",
+      "price": "195",
+      "discount": "42",
+      "category": [
+        "Hindi Books"
+      ],
+      "cart": false,
+      "wishlist": false,
+      "infomation": {
+        "Publisher": "Hindi Edition",
+        "Language": "Hindi",
+        "Paperback": "40 pages",
+        "ISBN-10": "9380703985",
+        "ISBN-13": "978-9380703985",
+        "Item Weight": "450 g",
+        "Dimensions": "20 x 14 x 4 cm "
+      },
+      "description": "गोदान को 1936 में प्रकाशित किया गया था, मुंशी प्रेमचंद के प्रमुख कार्यों में से एक गोदान, जिसका अर्थ है 'एक गाय का उपहार', एक उपन्यास है जो आपको एक सुंदर प्रेम-नफरत संबंधी रिश्ते के माध्यम से ले जाता है। कहानी भारतीय समुदाय के विभिन्न वर्गों के प्रतिनिधित्व करने वाले कई पात्रों के चारों ओर घूमती है। मुख्य चरित्र हरि है कई अन्य गरीब किसानों की तरह, हरी भी एक आत्मनिर्भरता के कुछ ऊंची ऊंचाई पर अपने सामाजिक सामाजिक स्तर को ऊपर उठाने की आशा में एक गाय का मालिक बनाना चाहता है। अपने परिस्थितियों के बहुत विपरीत, उसने एक गाय को 80 रुपये के कर्ज पर खरीदा। हालांकि, जब वह अपने छोटे भाई, हीरा, को 10 रुपये से धोखा देने की कोशिश करता है तो उसके नियंत्रण से चीजें बढ़ती जाती हैं। इस हर्ज से धनी (हरि की पत्नी) और हीरा की पत्नी के बीच एक बड़ी लड़ाई होती है। हीरा ने गाय को जहर दिया और पुलिस ने पकड़े जाने से बचने के लिए भाग लिया। गाय की मृत्यु के मामले को व्यवस्थित करने के लिए, हरि एक मनीषी से कुछ ऋण लेता है और पुलिस को रिश्वत देती है। दूसरी ओर, गोबर (हरि के बेटे) का एक विधवा झुनिया के साथ संबंध है। जब झुनिया अपने बच्चे के साथ गर्भवती होती है, तो गांव ग्रामीणों के क्रोध से बचने के लिए गोबर शहर में चले जाते हैं। लेकिन तब झूया को हरि और उसके परिवार की देखभाल में लिया जाता है। झुनिया के मुद्दे के कारण, ग्राम पंचायत ने हरि को अपने बेटे के कर्मों के लिए जुर्माना राशि का भुगतान करने का आदेश दिया। इस प्रकार, हरि फिर से कर्जदारों से ऋण लेता है जैसा कि उनके सिर पर कर्ज बढ़ता है, हरि अपनी बेटी रूपा से 200 रुपये का सौदा करके केवल अपने पैतृक गांव को धनराशि द्वारा नीलाम होने से बचाता है। हरी का काम बंद करने के लिए अपनी क्षमता से परे काम करता है और अंत में अंत में मर जाता है। उनके बेटे गोबर शहर में एक निर्बाध जीवन जीते हैं लेकिन अपने पिता के कर्ज का भुगतान करने के लिए कभी भी कमा नहीं सकते। गोदान मुंशी प्रेमचंद के प्रमुख हिट उपन्यासों में से एक है। हरि और गोबर के अलावा, उपन्यास में कई उपखंड शामिल हैं I.e. गांवों के सबसे गरीब शहरों की सबसे कहानियों में शामिल हैं। उपन्यास, गहराई में, आजादी के पूर्व युग के दौरान आम जनता की दुर्दशा की चर्चा करती है, विशेष रूप से किसानों द्वारा, जो हमेशा लेन-देनियों द्वारा निर्धारित ऋण के दुष्चक्र से उभरने में कठिनाई होती है",
+      "discountAmount": 0,
+      "quantity": 1
+    },
+    {
+      "id": "13",
+      "title": "The Power Of Your Subconscious Mind in -Hindi ",
+      "img": "/assets/Allbooks/The Power Of Your Subconscious Mind in -Hindi.png",
+      "author": "Joseph Murphy ",
+      "seller": "Book Hound",
+      "price": "499",
+      "discount": "82",
+      "category": [
+        "Hindi Books"
+      ],
+      "cart": false,
+      "wishlist": false,
+      "infomation": {
+        "Publisher": "Diamond Pocket Books Private Limited; First edition (1 January 2020)",
+        "Language": "Hindi",
+        "Paperback": "240 pages",
+        "ISBN-10": "9352619641",
+        "ISBN-13": "978-9352619641",
+        "Item Weight": "281 g",
+        "Dimensions": "20 x 14 x 4 cm "
+      },
+      "description": "यह पुस्तक मस्तिष्क की आधारभूत सच्चाइयों को आसान भाषा में समझाने की कोशिश है। जीवन और मस्तिष्क के आधारभूत नियमों को रोजमर्रा की सरल भाषा में समझाना पूरी तरह संभव है।मनुष्य दुखी क्यों होता है? दूसरा खुश क्यों होता है? एक मनुष्य सुखी और समृद्ध क्यों होता है? दूसरा गरीब और दुखी क्यों होता है? एक मनुष्य भयभीत और तनावग्रस्त क्यों होता है? दूसरा आस्थावान तथा आत्मविश्वासी क्यों होता है? एक मनुष्य के पास सुंदर, आलीशान बंगला क्यों होता है? दूसरा झोपड़ी में क्यों रहता है? एक मनुष्य बहुत सफल और दूसरा बुरी तरह असफल क्यों होता है? क्या आपके चेतन और अवचेतन मन में इन प्रश्नों का कोई उत्तर मिल सकता है? निश्चित रूप से मिल सकता है । इस पुस्तक का अध्ययन करने और इसमें बताई तकनीक को अमल में लाने से आप उस चमत्कारिक शक्ति को जान लेंगे, जो आपको दुविधा, दुख, उदासी और असफलता के कुचक्र से बाहर निकलने में मदद करेगी। यह चमत्कारिक शक्ति आपको मंजिल तक पहुँचने में मदद देगी, आपकी समस्याएँ सुलझाएगी, आपको मानसिक और शारीरिक बेड़ियों से स्वतंत्र करेगी। यह आपको पुनः स्वस्थ, उत्साही और शक्तिशाली बना सकती है। जब आप अपनी आंतरिक शक्तियों का प्रयोग करना सीख लेंगे, तो आप भय की कैद से स्वतंत्र हो जाएँगे और सुखमय जीवन का आनंद लेंगे।",
+      "discountAmount": 0,
+      "quantity": 1
+    },
+    {
+      "id": "14",
+      "title": "Ruthi Rani – Hindi Edition by Premchand ",
+      "img": "/assets/Allbooks/Ruthi Rani.png",
+      "author": "Hindi Books ",
+      "seller": "Book Hound",
+      "price": "150",
+      "discount": "34",
+      "category": [
+        "Hindi Books"
+      ],
+      "cart": false,
+      "wishlist": false,
+      "infomation": {
+        "Publisher": "Hindi Edition",
+        "Language": "Hindi",
+        "Paperback": "40 pages",
+        "ISBN-10": "9380703992",
+        "ISBN-13": "978-9380703992",
+        "Item Weight": "200 g",
+        "Dimensions": "20 x 14 x 4 cm "
+      },
+      "description": "पांच सदी पूर्व मारवाड़ में राजा राव मालदेव थे। इनकी एक गलती के कारण उनका नई रानी उनसे रूठ गई थीं। रानी ने भी ऐसा प्रण लिया कि जीवनभर अपनी बात पर कायम रही और इतिहास में रूठीं रानी के नाम से प्रसिद्ध हो गई। जीवनभर अपने पति से नहीं बोलने वाली रूठी रानी ने मरने के बाद अपने पति का साथ दिया और उसके साथ ही सती हो गई।",
+      "discountAmount": 0,
+      "quantity": 1
+    },
+    {
+      "id": "15",
+      "title": "Raavan (Hindi) (PAPER BACK)-AMISH TRIPATHI",
+      "img": "/assets/Allbooks/Raavan.png",
+      "author": "AMISH TRIPATHI ",
+      "seller": "Book Hound",
+      "price": "399",
+      "discount": "50",
+      "category": [
+        "Hindi Books",
+        "Other"
+      ],
+      "cart": false,
+      "wishlist": false,
+      "infomation": {
+        "Publisher": "Hindi Edition",
+        "Language": "Hindi",
+        "Paperback": "40 pages",
+        "ISBN-10": "9789388754361",
+        "ISBN-13": "978-9789388754361",
+        "Item Weight": "200 g",
+        "Dimensions": "20 x 14 x 4 cm "
+      },
+      "description": "रावण महर्षि विश्रवा की पहली संतान थे। वे बचपन से ही सत्ता के भूखे थे। उनका जन्म एक नागा के रूप में हुआ था लेकिन इसे उनके कबीले के अन्य लोगों से गुप्त रखा गया था। वह वैद्यनाथ की कन्याकुमारी पर आसक्त है, जो रावण को एक बेहतर इंसान बनने के लिए कहती है। जब रावण का भाई नागा पैदा होता है, तो नौ वर्षीय रावण को अपने मामा मारीच के साथ अपने छोटे भाई को जीवित रखने के लिए अपने पिता के शिष्यों से लड़ना पड़ता है। वे अंततः भाग गए और उनके मायके के परिवार ने भी उन्हें छोड़ दिया, और कन्याकुमारी से मिलने के लिए वैद्यनाथ गए। वहां उन्हें सूचित किया जाता है कि, कन्याकुमारी बदल गई है। दुखी मन से रावण वैद्यनाथ को छोड़ने का फैसला करता है",
+      "discountAmount": 0,
+      "quantity": 1
+    }
+  ]
+}
